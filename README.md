@@ -1,5 +1,7 @@
 # Improving Object Detection with Pseudo-Simulated Annealing Data Augmentation (PSADA) Algorithm
 
+Draft Paper: https://eleanorwiesler.com/website/projects/psada_paper.pdf
+
 ## Overview
 
 This project focuses on improving fish detection in natural environments using **Pseudo-Simulated Annealing Data Augmentation (PSADA) Algorithm**. The primary goal is to enhance object detection performance in **crowded marine habitats**, where occlusions and varying water conditions make detection challenging.
