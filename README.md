@@ -13,7 +13,7 @@ We train and test our model using the **DeepFish dataset** and a manually annota
 - **Psasi-Simulated Annealing Data Augmentation (QSADA)**: Enhances model robustness for crowded object detection.
 - **Live Florida Keys Dataset**: Evaluates real-world performance beyond controlled environments.
 - **Bounding Box Generation**: Converts segmentation masks from DeepFish into YOLO-compatible annotations.
-- **YOLOv10-based Fish Detection**: Trained on **DeepFish dataset** with generated bounding box annotations.
+- **Improves YOLOv10-based  Detection**: Trained on **DeepFish dataset** with generated bounding box annotations.
 - **Improved Detection Performance**: QSADA model achieves **higher recall and precision**, detecting more than **double** the fish compared to the baseline.
 
 ## Dataset
