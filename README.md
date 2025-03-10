@@ -2,16 +2,16 @@
 
 ## Overview
 
-This project focuses on improving fish detection in natural environments using **YOLOv10** and a **Quasi-Simulated Annealing Data Augmentation (QSADA) Algorithm**. The primary goal is to enhance object detection performance in **crowded fish habitats**, where occlusions and varying water conditions make detection challenging.
+This project focuses on improving fish detection in natural environments using **Pseudo-Simulated Annealing Data Augmentation (PSADA) Algorithm**. The primary goal is to enhance object detection performance in **crowded marine habitats**, where occlusions and varying water conditions make detection challenging.
 
-We train and test our model using the **DeepFish dataset** and a manually annotated test set from **live-streamed footage in the Florida Keys**. Our approach significantly improves upon traditional YOLO-based models for dense object detection in real-world conditions.
+We train and test our model using the **DeepFish dataset** and a manually annotated test set from **live-streamed footage in the Florida Keys**. Our approach significantly improves  traditional YOLO-based models for dense object detection in real-world conditions.
 
 ## Key Features
 
-- **YOLOv10-based Fish Detection**: Trained on **DeepFish dataset** with generated bounding box annotations.
-- **Quasi-Simulated Annealing Data Augmentation (QSADA)**: Enhances model robustness for crowded object detection.
+- **Psasi-Simulated Annealing Data Augmentation (QSADA)**: Enhances model robustness for crowded object detection.
 - **Live Florida Keys Dataset**: Evaluates real-world performance beyond controlled environments.
 - **Bounding Box Generation**: Converts segmentation masks from DeepFish into YOLO-compatible annotations.
+- **YOLOv10-based Fish Detection**: Trained on **DeepFish dataset** with generated bounding box annotations.
 - **Improved Detection Performance**: QSADA model achieves **higher recall and precision**, detecting more than **double** the fish compared to the baseline.
 
 ## Dataset
